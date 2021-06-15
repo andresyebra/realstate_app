@@ -4,7 +4,7 @@ Real estate app was created to to manage Real Estate properties.
 # Features
 - Rails Version: 6.1.3
 - Ruby Version: 2.7.2
-- SQLite
+- MySQL
 
 # Structure
 - App
