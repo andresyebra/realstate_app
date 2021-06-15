@@ -1,6 +1,6 @@
 class CreateRealEstates < ActiveRecord::Migration[6.1]
   def change
-    create_table :real_estates do |t|
+    create_table :real_estates , id: false, primary_key: :id do |t|
       t.integer :id
       t.string :name
       t.integer :type
