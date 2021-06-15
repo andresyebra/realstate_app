@@ -27,7 +27,7 @@ class RealEstatesController < ApplicationController
         if @real_estate.save
           render json: @real_estate, status: 201
         else
-          render json: { error: "Error:#{@real_estate.errors}.", status: 400 }, status: 400
+          render json: { error: "#{@real_estate.errors.full_messages.first}.", status: 400 }, status: 400
         end
     rescue Exception => e
       render json: { error: "Error:#{e}.", status: 400 }, status: 400
@@ -41,7 +41,7 @@ class RealEstatesController < ApplicationController
       if @real_estate.update(real_estate_params)
         render json: @real_estate, status: 201
       else
-        render json: @real_estate.errors, status: 400
+        render json: @real_estate.errors.full_messages.first, status: 400
       end
     rescue Exception => e
       render json: { error: "Error:#{e}.", status: 400 }, status: 400
