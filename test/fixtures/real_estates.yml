@@ -2,28 +2,28 @@
 
 one:
   id: 1
-  name: MyString
+  name: Central Park Building
   type: 1
-  street: MyString
-  external_number: MyString
-  internal_number: MyString
-  neighborhood: MyString
-  city: MyString
-  country: MyString
+  street: Main Street
+  external_number: 1123-1414
+  internal_number: 1344-14
+  neighborhood: Sotuh Park Building
+  city: New York
+  country: US
   rooms: 1
   bathrooms: 1
-  comments: MyString
+  comments: New Building
 
 two:
-  id: 1
-  name: MyString
+  id: 2
+  name: Chapultepec Park Building
   type: 1
-  street: MyString
-  external_number: MyString
-  internal_number: MyString
-  neighborhood: MyString
-  city: MyString
-  country: MyString
-  rooms: 1
-  bathrooms: 1
-  comments: MyString
+  street: Avenida 5 de Mayo
+  external_number: 1244
+  internal_number: 4444
+  neighborhood: Musseum
+  city: Ciudad de Mexico
+  country: MX
+  rooms: 3
+  bathrooms: 2.5
+  comments: History House
